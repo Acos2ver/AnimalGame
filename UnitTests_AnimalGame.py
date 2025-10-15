@@ -1,10 +1,3 @@
-# Author: Olivia Choi
-# GitHub username: Acos2ver
-# Date: 06/02/2025
-# Description: This code presents unit tests for the AnimalGame project.
-# Each test function corresponds to a specific method in the game and checks its expected behavior,
-# such as board setup, move validation, turn changes, and win conditions.
-# All tests include docstrings that explain what each test is verifying.
 
 import unittest
 from AnimalGame import AnimalGame, Chinchilla, Wombat, Emu, Cuttlefish
@@ -108,6 +101,7 @@ class TestAnimalGame(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+
 
 
 
