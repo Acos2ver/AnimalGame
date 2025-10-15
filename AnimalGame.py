@@ -1,12 +1,3 @@
-# Author: Olivia Choi
-# GitHub username: Acos2ver
-# Date: 05/30/2025
-# Description: This code implements the AnimalGame, an abstract strategy board game played on
-# a 7x7 grid between two players (TANGERINE and AMETHYST). Each player controls a set of
-# animal-themed pieces with unique movement patterns. The goal is to capture the opponent's CUTTLEFISH.
-# The game uses algebraic notation (e.g., 'a1') and include core logic and board display for testing.
-
-
 
 class Piece:
     """
@@ -288,3 +279,4 @@ class AnimalGame:
 
 #   state = game.get_game_state()
 #    print("Game State:", state)
+
